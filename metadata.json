@@ -1,0 +1,6 @@
+{
+  "name": "Guga Games",
+  "description": "Guga Games — A 01 da Santa Ifigênia. Consoles PlayStation 5, PS5 Pro, Xbox Series, Nintendo Switch, jogos lançamentos e upgrade com seu usado na troca.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

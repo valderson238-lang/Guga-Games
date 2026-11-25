@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Barlow Condensed", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-obsidian: #09090B;
+  --color-carbon: #121216;
+  --color-graphite: #1A1A20;
+  --color-gold: #E5B82E;
+  --color-gold-hover: #F2C94C;
+  --color-gold-deep: #B88E14;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #09090B;
+    color: #F4F4F5;
+  }
+
+  h1, h2, .font-display-heading {
+    font-family: var(--font-display);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
